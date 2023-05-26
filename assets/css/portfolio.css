@@ -1,0 +1,32 @@
+/* Portfolio page */
+.splide__slide {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: auto;
+  align-content: start;
+}
+.splide__slide div {
+  width: 50%;
+  margin: 1em;
+   display: flex;
+}
+.splide__slide div:first-child {
+  justify-content: flex-end;
+  align-items: center;
+}
+.splide__slide img {
+	max-height: 100%;
+	max-width: 100%;
+  object-fit: contain;
+  background: white;
+}
+.splide__slide div:last-child {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.splide__pagination__page.is-active {	 /*todooo*/
+	background-color: #707070;
+}
