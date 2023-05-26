@@ -1,5 +1,4 @@
-
-	::selection {
+::selection {
 	/* It can be really hard to read highlighted text with a text-shadow, it should be removed when selected */
 	text-shadow: none;
 	color: #fff;
@@ -64,8 +63,8 @@ body {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana,
-		"sans-serif";
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
+		"DejaVu Sans", Verdana, "sans-serif";
 	font-style: normal;
 	font-weight: 200;
 }
@@ -82,10 +81,8 @@ h2 {
 	text-align: center;
 }
 
-
-@media (max-width: 640px){
-	body{
-		
-	width: 100%;
+@media (max-width: 640px) {
+	body {
+		width: 100%;
 	}
 }
