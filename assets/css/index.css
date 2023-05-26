@@ -1,40 +1,31 @@
-/* About Section */
 #about {
-	/* display */
 	display: inline-block;
 
-	/* box */
 	padding-left: 25px;
+	padding-bottom: 25px;
 	padding-right: 25px;
 	margin-top: 0;
-	padding-bottom: 25px;
 }
-/* Stats Gallery */
 .stats {
-	/* box */
 	margin-bottom: 5px;
 
-	/* typography */
 	color: #717070;
 }
 
 #portfolio {
-	padding-bottom: 35px;
-	margin-top: -5px;
-	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+
+	width: 100%;
+	padding-bottom: 35px;
+	margin-top: -5px;
 }
 
 .thumbnail {
-	/* positioning */
 	width: 50%;
-
-	/* box */
 	margin-top: 35px;
 
-	/* typography */
 	text-align: center;
 }
 
@@ -43,29 +34,25 @@
 }
 
 #portfolio .thumbnail h4 {
-	/* box */
 	margin-top: 5px;
-
 	margin-left: 5px;
 	margin-bottom: 5px;
 	margin-right: 5px;
 
-	/* typography */
 	color: #52bad5;
 }
 
 #portfolio .thumbnail p {
-	/* box */
+	flex-wrap: wrap;
+
+	width: 85%;
+	margin: auto;
 	margin-top: 0;
 	margin-left: 0;
 	margin-bottom: 0;
 	margin-right: 0;
-	width: 85%;
-	margin: auto;
 
-	/* typography */
 	color: #a3a3a3;
-	flex-wrap: wrap;
 }
 
 #portfolio a {
@@ -76,15 +63,11 @@ a:has(button) {
 	text-decoration: none;
 }
 
-/* More info */
 button {
-	/* display */
 	display: flex;
 	align-items: center;
-
 	justify-content: center;
 
-	/* box */
 	width: 200px;
 	padding: 20px 10px;
 	border: 3px solid #000;
@@ -92,15 +75,12 @@ button {
 	margin: 40px auto auto;
 	background-color: #717070;
 
-	/* typography */
-	/* By default, buttons don't inherit the font colour, this is a useful default to override */
 	color: #fff;
-	text-transform: uppercase;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
 
-	/* manipulation */
 	transition: all 0.3s linear;
 }
 
@@ -109,13 +89,10 @@ button svg {
 }
 
 button:hover {
-	/* box */
 	background-color: #fefefe;
 
-	/* typography */
 	color: #000;
 
-	/* miscellaneous */
 	cursor: pointer;
 }
 
@@ -129,4 +106,14 @@ button:hover {
 
 #hero {
 	padding: 150px 0;
+}
+
+@media (max-width: 640px) {
+	#portfolio {
+		flex-direction: column;
+	}
+
+	.thumbnail {
+		width: 100%;
+	}
 }

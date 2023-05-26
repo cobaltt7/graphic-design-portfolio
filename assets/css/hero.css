@@ -1,48 +1,50 @@
-/* Hero Section */
 #hero {
+	position: relative;
+
 	padding: 75px 0;
 	margin: 0 0 35px;
-	position: relative;
-	color: #fff;
 	background: url("../projects/hands.png") center no-repeat;
 	background-size: cover;
+
+	color: #fff;
+
 	z-index: 0;
 }
 
 #hero::before {
 	content: "";
+
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
+
 	background-color: rgba(0, 0, 0, 0.75);
+
 	z-index: 1;
 }
 
 .hero_header {
-	/* box */
-	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	margin-right: 0;
 	position: relative;
 
-	/* typography */
+	margin: 0 1em;
+
 	text-align: center;
 	letter-spacing: 4px;
+
 	z-index: 2;
 }
 
 .tagline {
-	/* box */
-	margin-top: 4px;
 	position: relative;
 
-	/* typography */
+	margin-top: 4px;
+
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 1px;
+
 	z-index: 2;
 }

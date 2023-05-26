@@ -13,11 +13,3 @@ new Splide(".splide", {
 	speed: 750,
 	start: 2,
 }).mount();
-
-/*
- * Todo:
- * speed up arrow transitions
- * center arrows
- * move pagination down
- * hide arrows on not hover
- */

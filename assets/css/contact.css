@@ -1,28 +1,29 @@
 #contact-me > div {
-	padding: 35px;
-	column-count: 2;
-	width: 100%;
 	display: inline-block;
-	column-rule-width: medium;
+	column-count: 2;
 	column-rule-color: black;
 	column-rule-style: solid;
+	column-rule-width: medium;
+
+	width: 100%;
 	height: 118px;
+	padding: 35px;
 }
 
-/* Contact page */
 #socials {
 	display: flex;
-	margin-left: 17px;
-	justify-content: space-between;
-	height: 100%;
-
 	align-items: center;
+	justify-content: space-between;
+
+	height: 100%;
+	margin-left: 17px;
 }
 #socials a {
 	display: inline-block;
 }
 #socials img {
 	height: 100%;
+
 	transition: filter 0.1s linear;
 }
 #socials a:hover:nth-child(1) img {
@@ -44,4 +45,22 @@
 #socials a:hover:nth-child(5) img {
 	filter: invert(15%) sepia(74%) saturate(5700%) hue-rotate(343deg)
 		brightness(84%) contrast(118%);
+}
+
+@media (max-width: 425px) {
+	#contact-me > div {
+		flex-direction: column;
+	}
+
+	#email-phone {
+		padding-bottom: 2em;
+		border-bottom: solid black 3px;
+		margin-bottom: 2em;
+	}
+
+	#contact-me > div {
+		display: table;
+
+		padding: 1em;
+	}
 }

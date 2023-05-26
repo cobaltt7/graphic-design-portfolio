@@ -1,5 +1,4 @@
 ::selection {
-	/* It can be really hard to read highlighted text with a text-shadow, it should be removed when selected */
 	text-shadow: none;
 	color: #fff;
 	background-color: hsla(192, 44%, 29%, 0.75);
@@ -15,51 +14,38 @@
 
 html {
 	box-sizing: border-box;
+
 	line-height: 1.5em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
 	html {
-		/* Smoothly animate to different sections within a page, only if the user doesn't mind animations */
 		scroll-behavior: smooth;
 	}
 }
 
 img {
-	/* For responsive images that adjust & adapt */
 	height: auto;
 	max-width: 100%;
 }
 
 a,
 button {
-	/* Element doesn't want double-tap on mobile to zoom */
 	touch-action: manipulation;
 }
 
 svg {
-	/* Optional - make the SVG's fill be the same as the inherited color */
 	fill: currentColor;
-	/* Prevent the SVG from altering cursor interaction */
 	pointer-events: none;
 }
 
 iframe,
 video {
-	/* Make iframes & videos fit the parent container by default */
 	height: 100%;
 	width: 100%;
 }
 
-/* Body */
 body {
-	/* box */
-	height: 100%;
-	width: 70%;
-	margin: 0 auto;
-
-	/* typography */
-	/* Better text rendering - font-smoothing has not been officially declared, but can still be useful */
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
@@ -69,20 +55,6 @@ body {
 	font-weight: 200;
 }
 
-/* Container */
-main {
-	width: 95%;
-	height: auto;
-	margin: 5px auto;
-	background-color: #f9f9f9;
-}
-
 h2 {
 	text-align: center;
-}
-
-@media (max-width: 640px) {
-	body {
-		width: 100%;
-	}
 }

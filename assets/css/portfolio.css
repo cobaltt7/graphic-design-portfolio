@@ -1,33 +1,68 @@
-/* Portfolio page */
+.splide {
+	padding-bottom: 2em;
+}
 .splide__slide {
-	width: 100%;
 	display: flex;
-	flex-wrap: nowrap;
 	flex-direction: row;
-	align-items: auto;
-	align-content: start;
+	flex-wrap: nowrap;
+
+	width: 100%;
 }
 .splide__slide div {
+	display: flex;
+
 	width: 50%;
 	margin: 1em;
-	display: flex;
 }
 .splide__slide div:first-child {
-	justify-content: flex-end;
 	align-items: center;
+	justify-content: flex-end;
 }
 .splide__slide img {
-	max-height: 100%;
 	max-width: 100%;
+	max-height: 100%;
 	object-fit: contain;
 	background: white;
 }
 .splide__slide div:last-child {
-	justify-content: center;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .splide__pagination__page.is-active {
-	/* todo */
 	background-color: #707070;
+}
+
+.splide__arrow {
+	display: none;
+}
+
+.splide:hover .splide__arrow {
+	display: flex;
+}
+
+.splide__arrow svg {
+	width: 0.75em;
+	height: 0.75em;
+}
+
+@media (max-width: 640px) {
+	.splide__slide {
+		flex-direction: column;
+
+		padding-top: 5px;
+	}
+
+	.splide__slide:not(:last-child) {
+		padding-bottom: 5px;
+		border-bottom: 2px solid black;
+	}
+
+	.splide__slide div {
+		width: auto;
+	}
+
+	.splide__slide div:first-child {
+		justify-content: center;
+	}
 }
