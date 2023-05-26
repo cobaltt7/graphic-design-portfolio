@@ -47,7 +47,7 @@
 		brightness(84%) contrast(118%);
 }
 
-@media (max-width: 425px) {
+@media (max-width: 575px) {
 	#contact-me > div {
 		flex-direction: column;
 	}
