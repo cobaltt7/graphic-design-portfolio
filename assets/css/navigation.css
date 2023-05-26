@@ -131,7 +131,7 @@ a h4 {
 	transform: rotate(-405deg);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 640px) {
 	.nav-button {
 		display: flex;
 	}
