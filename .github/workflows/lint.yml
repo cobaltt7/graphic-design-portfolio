@@ -22,14 +22,12 @@ jobs:
 
             - name: Setup Node.JS
               uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # v4.1.0
-              with:
-                  node-version-file: package.json
 
             - name: Install
               run: npm install
 
             - name: Format
-              run: node --run format
+              run: npm run format
 
             - name: Assert clean
               if: startsWith(github.ref_name, 'dependabot/') == true
