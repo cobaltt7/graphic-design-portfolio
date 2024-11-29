@@ -49,8 +49,8 @@ body {
 	text-rendering: optimizeLegibility;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans",
-		"DejaVu Sans", Verdana, "sans-serif";
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana,
+		"sans-serif";
 	font-style: normal;
 	font-weight: 200;
 }

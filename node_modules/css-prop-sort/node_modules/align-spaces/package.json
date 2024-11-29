@@ -1,0 +1,55 @@
+{
+  "name": "align-spaces",
+  "version": "1.0.4",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "align spaces on empty lines of a source code",
+  "homepage": "http://github.com/coderaiser/align-spaces",
+  "main": "lib/align-spaces.js",
+  "bin": {
+    "align-spaces": "bin/align-spaces.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/align-spaces.git"
+  },
+  "nyc": {
+    "exclude": [
+      "test",
+      "madrun.js"
+    ]
+  },
+  "scripts": {
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "putout": "madrun putout",
+    "lint:bin": "madrun lint:bin",
+    "lint:lib": "madrun lint:lib",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
+  },
+  "dependencies": {},
+  "keywords": [
+    "align-whitespaces"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^6.0.0-rc.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-putout": "^3.2.1",
+    "madrun": "^5.4.2",
+    "nodemon": "^2.0.2",
+    "nyc": "^15.0.0",
+    "putout": "^7.13.1",
+    "supertape": "^1.2.0",
+    "try-catch": "^2.0.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

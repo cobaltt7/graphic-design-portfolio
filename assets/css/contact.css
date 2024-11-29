@@ -27,24 +27,19 @@
 	transition: filter 0.1s linear;
 }
 #socials a:hover:nth-child(1) img {
-	filter: invert(60%) sepia(39%) saturate(5759%) hue-rotate(162deg)
-		brightness(97%) contrast(101%);
+	filter: invert(60%) sepia(39%) saturate(5759%) hue-rotate(162deg) brightness(97%) contrast(101%);
 }
 #socials a:hover:nth-child(2) img {
-	filter: invert(23%) sepia(97%) saturate(2297%) hue-rotate(316deg)
-		brightness(88%) contrast(89%);
+	filter: invert(23%) sepia(97%) saturate(2297%) hue-rotate(316deg) brightness(88%) contrast(89%);
 }
 #socials a:hover:nth-child(3) img {
-	filter: invert(15%) sepia(77%) saturate(7495%) hue-rotate(359deg)
-		brightness(94%) contrast(123%);
+	filter: invert(15%) sepia(77%) saturate(7495%) hue-rotate(359deg) brightness(94%) contrast(123%);
 }
 #socials a:hover:nth-child(4) img {
-	filter: invert(41%) sepia(12%) saturate(2731%) hue-rotate(182deg)
-		brightness(89%) contrast(87%);
+	filter: invert(41%) sepia(12%) saturate(2731%) hue-rotate(182deg) brightness(89%) contrast(87%);
 }
 #socials a:hover:nth-child(5) img {
-	filter: invert(15%) sepia(74%) saturate(5700%) hue-rotate(343deg)
-		brightness(84%) contrast(118%);
+	filter: invert(15%) sepia(74%) saturate(5700%) hue-rotate(343deg) brightness(84%) contrast(118%);
 }
 
 @media (max-width: 575px) {
