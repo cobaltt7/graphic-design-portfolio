@@ -1,0 +1,14 @@
+{
+	"name": "graphic-design-portfolio",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"format": "prettier --write \"**\" --ignore-unknown --cache"
+	},
+	"prettier": "@redguy12/prettier-config",
+	"devDependencies": {
+		"@redguy12/prettier-config": "3.1.1",
+		"css-prop-sort": "1.0.0",
+		"prettier": "3.3.3"
+	}
+}
