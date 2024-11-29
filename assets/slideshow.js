@@ -1,4 +1,3 @@
-/* eslint-disable */
 new Splide(".splide", {
 	autoplay: true,
 	breakpoints: {
