@@ -1,14 +1,14 @@
 body {
+	margin: 0 auto;
 	width: 70%;
 	height: 100%;
-	margin: 0 auto;
 }
 
 main {
-	width: 95%;
-	height: auto;
 	margin: 0 auto;
 	background-color: #f9f9f9;
+	width: 95%;
+	height: auto;
 }
 
 @media (max-width: 1024px) {

@@ -1,12 +1,12 @@
 footer {
-	padding-top: 20px;
-	padding-bottom: 20px;
 	border-top-width: 2px;
 	background-color: #717070;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 	color: #ffffff;
-	text-align: center;
-	text-transform: uppercase;
 	font-weight: lighter;
 	letter-spacing: 2px;
+	text-align: center;
+	text-transform: uppercase;
 }
