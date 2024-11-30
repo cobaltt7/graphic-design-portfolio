@@ -1,30 +1,29 @@
 #contact-me > div {
 	display: inline-block;
-	column-count: 2;
-	column-rule-color: black;
-	column-rule-style: solid;
 	column-rule-width: medium;
+	column-rule-style: solid;
+	column-rule-color: black;
+	column-count: 2;
+	padding: 35px;
 
 	width: 100%;
 	height: 118px;
-	padding: 35px;
 }
 
 #socials {
 	display: flex;
-	align-items: center;
 	justify-content: space-between;
+	align-items: center;
+	margin-left: 17px;
 
 	height: 100%;
-	margin-left: 17px;
 }
 #socials a {
 	display: inline-block;
 }
 #socials img {
-	height: 100%;
-
 	transition: filter 0.1s linear;
+	height: 100%;
 }
 #socials a:hover:nth-child(1) img {
 	filter: invert(60%) sepia(39%) saturate(5759%) hue-rotate(162deg) brightness(97%) contrast(101%);
@@ -48,9 +47,9 @@
 	}
 
 	#email-phone {
-		padding-bottom: 2em;
-		border-bottom: solid black 3px;
 		margin-bottom: 2em;
+		border-bottom: solid black 3px;
+		padding-bottom: 2em;
 	}
 
 	#contact-me > div {
