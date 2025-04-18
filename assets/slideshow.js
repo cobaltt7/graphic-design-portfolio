@@ -1,8 +1,6 @@
 new Splide(".splide", {
 	autoplay: true,
-	breakpoints: {
-		640: { destroy: true },
-	},
+	breakpoints: { 640: { destroy: true } },
 	fixedHeight: "500px",
 	interval: 7500,
 	lazyLoad: "nearby",
