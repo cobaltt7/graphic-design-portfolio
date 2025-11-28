@@ -8,6 +8,6 @@
 	"prettier": "@redguy12/prettier-config",
 	"devDependencies": {
 		"@redguy12/prettier-config": "3.4.4",
-		"prettier": "3.6.2"
+		"prettier": "3.7.1"
 	}
 }
